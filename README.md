@@ -1,5 +1,5 @@
-# Terraform configuration with aws module
-This repo contains Terraform configuration, which will download the Terraform Module from my other repo: [Terraform AWS Instance](https://github.com/51r/terraform_aws_instance)
+# Terraform configuration with two aws modules
+This repo contains Terraform configuration, which will download the Terraform Module from my other repo: [Terraform AWS Instance](https://github.com/51r/terraform_aws_instance) and will configure second module, which will create an instance in different region than the default.
 
 # Prerequisite
 This guide applies to Mac, for other OS it may vary. You need to have terraform CLI installed on you workstation. In the guide below, we will be using [homebrew](https://brew.sh/)
