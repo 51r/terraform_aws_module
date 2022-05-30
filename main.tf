@@ -1,0 +1,3 @@
+module "ubuntu" {
+  source = "./ubuntu"
+}
