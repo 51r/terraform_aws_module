@@ -31,7 +31,7 @@ git clone https://github.com/51r/terraform_aws_module.git
 
 * Make sure you are in the main directory of the repo:
 ```
-cd terraform_aws_instance
+cd terraform_aws_module
 ```
 
 * initialize Terraform  
