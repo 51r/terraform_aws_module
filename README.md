@@ -2,25 +2,7 @@
 This repo contains Terraform configuration, which will download the Terraform Module from my other repo: [Terraform AWS Instance](https://github.com/51r/terraform_aws_instance) and will configure two modules, which one of them will create an instance in different region than the default one.
 
 # Prerequisite
-This guide applies to Mac, for other OS it may vary. You need to have terraform CLI installed on you workstation. In the guide below, we will be using [homebrew](https://brew.sh/)
-
-*  First, add the HashiCorp tap, a repository of all Hashicorp brew packages. 
-    ```
-    brew tap hashicorp/tap
-    ```
-* Now, install Terraform with hashicorp/tap/terraform.
-   ```
-   brew install hashicorp/tap/terraform
-   ```
-*  for any other OS click [here](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-
-**NOTE: This installs a signed binary and is automatically updated with every new official release.**
-
-* Check if Terraform is available with: 
-```
-terraform --version
-```
-
+You need to have [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli) installed on you workstation. 
 
 # How to use the repo
 
